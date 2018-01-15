@@ -43,5 +43,5 @@ $ hexo server #默认 :4000 端口, http://localhost:4000 即可访问
 #镜像地址可以在 Makefile 里的 IMAGE_NAME 看到，或者修改为您自己的镜像地址
 $ make container  #构建镜像
 $ make push       #推送镜像
-$ make            #同 make 命令
+$ make            #同 make push 命令
 ```
