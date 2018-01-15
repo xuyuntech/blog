@@ -25,13 +25,13 @@ $ npm install
 $ hexo new "This is a blog title, a space is valid"
 ```
 
+标题可以包含空格，`new` 完之后，会在根目录下的 source/_posts 目录里出现对应的 `.md` 文件，blog 的内容写在这里 md 文件里即可
+
 ## 开启本地服务
 
 ``` bash
 $ hexo server #默认 :4000 端口, http://localhost:4000 即可访问
 ```
-
-标题可以包含空格，`new` 完之后，会在根目录下的 source/_posts 目录里出现对应的 `.md` 文件，blog 的内容写在这里 md 文件里即可
 
 ## 构建/推送 docker 容器
 
