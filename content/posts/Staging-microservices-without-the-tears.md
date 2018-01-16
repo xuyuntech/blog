@@ -1,11 +1,8 @@
 ---
-title: Kubernetes 的 service mesh -- 第六部分：轻松预发布微服务
-date: 2018-01-10 12:56:13
-tags:
-- Kubernetes
-- Service mesh
+title: "Kubernetes 的 service mesh -- 第六部分：轻松预发布微服务"
+date: 2018-01-16T13:13:24+08:00
+draft: true
 ---
-
 在将新代码发布到生产环境之前， 预发布操作是构建一个可靠的、低宕机时间的软件系统的关键组成部分。但是，在微服务体系下，由于拆分出来的许许多多的微服务之间的依赖关系随着微服务数量成指数倍增长，从而增加了预发布操作的复杂性。在这篇文章里，我们将为您介绍 linkerd 的最强大的功能之一，单个请求路由（per-request routing），通过它，您将可以非常轻松的处理这个问题。
 
 注意：这是关于Linkerd、Kubernetes和service mesh的系列文章其中一篇，其余部分包括：
