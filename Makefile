@@ -1,6 +1,6 @@
 
 IMAGE_TAG=${shell git describe --tags --long}
-IMAGE_NAME=index.boxlinker.com/cabernety/blog:${IMAGE_TAG}
+IMAGE_NAME=index.boxlinker.com/cabernety/xuyuntech-blog:v1
 
 all: push
 
